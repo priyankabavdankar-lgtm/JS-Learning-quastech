@@ -78,8 +78,7 @@ let obj = {
                 // console.log(`${key} : ${obj.Address[i][key]}`);
 
                 console.log(`${key} : ${obj.Address[i][key]}`);
-
-                console.log(`${key} : ${obj.Address[i][key]}`);
+                console.log(Object.entries(obj.Address[0]));
             })
         }
     }
