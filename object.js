@@ -58,6 +58,5 @@ class Electric_car extends car {
 }
 
 let E1 = new Electric_car("xyz", "5000mAH", "2hr");
-console.log(E1);
-
-E1.display();
+comsole.log(E1);
+ E1 .display();
